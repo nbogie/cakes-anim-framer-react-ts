@@ -1,0 +1,43 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+.app {
+    position: relative;
+    background: peachpuff;
+    border-radius: 1rem;
+    aspect-ratio: 1;
+    overflow: clip;
+}
+
+.foodItem {
+    /* background: dodgerblue; */
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: all 1s;
+}
+
+.foodItem img {
+    max-width: 5rem;
+}
+
+h1 {
+    padding: 1rem;
+}
